@@ -2,6 +2,8 @@ body {
   margin: 20% auto;
   width: 50%;
   height: 75%;
+  font-size: large;
+  background-color: ivory;
 }
 
 .calc-box {
@@ -27,9 +29,14 @@ body {
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
-
 }
 
-#result {
-  color: black;
+button {
+  height: 1.5rem;
+  width: 5rem;
+}
+
+input {
+  height: 1.5rem;
+  width: 9.5rem;
 }
